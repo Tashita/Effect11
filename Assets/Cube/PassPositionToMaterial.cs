@@ -5,7 +5,9 @@ public class PassPositionToMaterial : MonoBehaviour
 {
     private Material material;
 
+    [SerializeField]
     private string positionProperty = "_Pos";
+    [SerializeField]
     private string radiusProperty = "_Radius";
     // could add [SerializeField] attribute or make public to set from inspector
 
